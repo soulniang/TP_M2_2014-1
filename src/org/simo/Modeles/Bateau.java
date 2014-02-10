@@ -8,6 +8,13 @@ import org.simo.Modeles.Marin;
 public class Bateau {
 	
 	private String nom;
+	private String port;
+	public String getPort() {
+		return port;
+	}
+	public void setPort(String port) {
+		this.port = port;
+	}
 	private int tonnage;
 	private List<Marin> equipage;
 	public String getNom() {
